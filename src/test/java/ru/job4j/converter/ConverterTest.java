@@ -15,9 +15,9 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert0RblToDollarThen0Dollar() {
-        float in = 0;
-        float expected = 0;
+    public void whenConvert220RblToDollarThen4Dollar() {
+        float in = 240;
+        float expected = 4;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
