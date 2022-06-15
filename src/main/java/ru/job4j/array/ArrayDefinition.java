@@ -12,9 +12,6 @@ public class ArrayDefinition {
         names[2] = "Ivan Visloushenko";
         names[3] = "Anna Polyak";
 
-        for (int i = 0; i < names.length; i++) {
-            System.out.println(names[i]);
-        }
         System.out.println("Размер массива равен: " + ages.length);
         System.out.println("Размер массива равен: " + surnames.length);
         System.out.println("Размер массива равен: " + prices.length);
