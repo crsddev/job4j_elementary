@@ -1,4 +1,8 @@
 package ru.job4j.array;
+//  data - массив чисел,
+//          el - элемент, который нужно найти,
+//          start - индекс, с которого начинаем поиск,
+//          finish - индекс, которым заканчиваем поиск.
 
 public class FindLoop {
     public static int indexOf(int[] data, int el) {
@@ -8,6 +12,17 @@ public class FindLoop {
                 rst = index;
                 break;
             }
+        }
+        return rst;
+    }
+
+    public static int indexInRange(int[] data, int el, int start, int finish) {
+        int rst = -1;
+        for (int i = start; i < finish; i++) {
+            if (data[i] == el) {
+                rst = i;
+            }
+
         }
         return rst;
     }
