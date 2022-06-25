@@ -1,0 +1,10 @@
+package ru.job4j.array;
+
+public class LengthArrayArrays {
+    public static void main(String[] args) {
+        int[][] numbers = new int[][]{{1}, {2, 3}, {3, 5, 10}, {40, 30, 20, 10}};
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("Размер вложенного массива равен: " + numbers[i].length);
+        }
+    }
+}
