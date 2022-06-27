@@ -19,7 +19,7 @@ public class MatrixCheckTest {
     @Test
     public void whenNoMonoHorizontal() {
         char[][] input = {
-                {' ', ' ', ' '},
+                {'X', ' ', 'X'},
                 {' ', ' ', ' '},
                 {' ', ' ', ' '},
         };
