@@ -9,13 +9,10 @@ public class Defragment {
                         array[index] = array[i];
                         array[i] = null;
                         break;
-
                     }
-
                 }
             }
         }
-
         return array;
     }
 }
