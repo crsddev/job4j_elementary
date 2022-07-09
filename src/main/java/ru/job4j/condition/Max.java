@@ -6,25 +6,10 @@ public class Max {
     }
 
     public static int max(int a, int b, int c) {
-        int result = 0;
-        result = Math.max(a, b);
-        if (result >= c) {
-            return result;
-        } else {
-            result = c;
-        }
-        return result;
+        return max(a, max(b, c));
     }
 
     public static int max(int a, int b, int c, int d) {
-        int result = 0;
-        result = Math.max(a, b);
-        int tempRsl = Math.max(c, d);
-        if (result >= tempRsl) {
-            return result;
-        } else {
-            result = tempRsl;
-        }
-        return result;
+        return max(d, max(a, b, c));
     }
 }
